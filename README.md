@@ -1,62 +1,6 @@
 # Hollow Knight Geo Editor
 
-[English](#english) | [中文](#chinese)
-
-## English
-
-### Description
-Hollow Knight Geo Editor is a simple and user-friendly tool that allows you to modify the Geo (currency) value in your Hollow Knight save files. This tool provides a graphical interface for easy save file management and Geo editing.
-
-### Features
-- Browse and select save files from different save slots
-- View save file details (filename, size, modification time)
-- Modify Geo value in save files
-- Automatic save file backup
-- User-friendly graphical interface
-- Support for multiple save slots
-
-### Requirements
-- Windows operating system
-- Python 3.9 or 3.10 (Python 3.11+ is not supported for building)
-- Required Python packages (see requirements.txt)
-
-### Installation
-1. Clone this repository or download the latest release
-2. Install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-### Usage
-1. Run the editor:
-```bash
-python editor.py
-```
-2. Select your save slot from the dropdown menu
-3. Choose the save file you want to modify
-4. Enter your desired Geo value
-5. Click confirm to save changes
-
-### Building the Executable
-To create a standalone executable:
-
-1. Make sure you have Python 3.9 or 3.10 installed (Python 3.11+ is not supported)
-2. Install PyInstaller:
-```bash
-pip install pyinstaller
-```
-3. Run the build script:
-```bash
-python build.py
-```
-4. The executable will be created in the `dist` folder
-
-### Note
-- Always backup your save files before making any modifications
-- The tool automatically creates backups of your save files
-- Save files are located in: `%APPDATA%\..\LocalLow\Team Cherry\Hollow Knight`
-
----
+[中文](#chinese) | [English](#english)
 
 ## Chinese
 
@@ -111,3 +55,59 @@ python build.py
 - 在进行任何修改之前，请务必备份存档文件
 - 工具会自动创建存档文件的备份
 - 存档文件位置：`%APPDATA%\..\LocalLow\Team Cherry\Hollow Knight`
+
+---
+
+## English
+
+### Description
+Hollow Knight Geo Editor is a simple and user-friendly tool that allows you to modify the Geo (currency) value in your Hollow Knight save files. This tool provides a graphical interface for easy save file management and Geo editing.
+
+### Features
+- Browse and select save files from different save slots
+- View save file details (filename, size, modification time)
+- Modify Geo value in save files
+- Automatic save file backup
+- User-friendly graphical interface
+- Support for multiple save slots
+
+### Requirements
+- Windows operating system
+- Python 3.9 or 3.10 (Python 3.11+ is not supported for building)
+- Required Python packages (see requirements.txt)
+
+### Installation
+1. Clone this repository or download the latest release
+2. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### Usage
+1. Run the editor:
+```bash
+python editor.py
+```
+2. Select your save slot from the dropdown menu
+3. Choose the save file you want to modify
+4. Enter your desired Geo value
+5. Click confirm to save changes
+
+### Building the Executable
+To create a standalone executable:
+
+1. Make sure you have Python 3.9 or 3.10 installed (Python 3.11+ is not supported)
+2. Install PyInstaller:
+```bash
+pip install pyinstaller
+```
+3. Run the build script:
+```bash
+python build.py
+```
+4. The executable will be created in the `dist` folder
+
+### Note
+- Always backup your save files before making any modifications
+- The tool automatically creates backups of your save files
+- Save files are located in: `%APPDATA%\..\LocalLow\Team Cherry\Hollow Knight`
