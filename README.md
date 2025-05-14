@@ -1,4 +1,4 @@
-# Hollow Knight Geo Editor
+# 空洞骑士金币编辑器
 
 [中文](#chinese) | [English](#english)
 
@@ -59,6 +59,8 @@ python build.py
 ---
 
 ## English
+
+### Hollow Knight Geo Editor
 
 ### Description
 Hollow Knight Geo Editor is a simple and user-friendly tool that allows you to modify the Geo (currency) value in your Hollow Knight save files. This tool provides a graphical interface for easy save file management and Geo editing.
