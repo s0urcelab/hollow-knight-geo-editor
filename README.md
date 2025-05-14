@@ -1,4 +1,4 @@
-# 空洞骑士金币（吉欧）修改器
+# 空洞骑士金币（Geo）修改器
 
 [中文](#chinese) | [English](#english)
 
