@@ -5,6 +5,9 @@ on:
     tags:
       - 'v*' # 当推送以v开头的标签时触发
 
+permissions:
+  contents: write  # 添加创建 Release 的权限
+
 jobs:
   build:
     runs-on: windows-latest
