@@ -5,7 +5,7 @@
 ## Chinese
 
 ### 简介
-空洞骑士金币修改器是一个简单易用的工具，允许你修改空洞骑士存档文件中的金币（Geo）数值。该工具提供了图形界面，方便存档文件管理和金币编辑。
+空洞骑士金币修改器是一个简单易用的工具，允许你修改空洞骑士存档文件中的金币（Geo）数值。该工具提供了图形界面，方便存档文件管理和金币编辑。灵感来自于：[bloodorca/hollow](https://github.com/bloodorca/hollow)
 
 ### 功能特点
 - 浏览和选择不同存档槽中的存档文件
@@ -50,7 +50,7 @@ python build.py
 ### Hollow Knight Geo Editor
 
 ### Description
-Hollow Knight Geo Editor is a simple and user-friendly tool that allows you to modify the Geo (currency) value in your Hollow Knight save files. This tool provides a graphical interface for easy save file management and Geo editing.
+Hollow Knight Geo Editor is a simple and user-friendly tool that allows you to modify the Geo (currency) value in your Hollow Knight save files. This tool provides a graphical interface for easy save file management and Geo editing. Inspired by: [bloodorca/hollow](https://github.com/bloodorca/hollow)
 
 ### Features
 - Browse and select save files from different save slots
